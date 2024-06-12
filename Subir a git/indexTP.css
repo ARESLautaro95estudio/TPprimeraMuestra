@@ -1,0 +1,271 @@
+.barra {
+    padding-top: 1%;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+
+header {
+
+  opacity: 0.9;
+  padding: 20px 20px;
+  background-image: url(./images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: poppins, sans-serif;
+}
+
+header nav ul li a {
+    margin-inline-start: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 25px;
+  }
+header nav ul {
+    flex-direction: row;
+    justify-content: right;
+    list-style-type: none;
+    text-decoration: none;
+}
+ul, ol {
+    padding: 0;
+    list-style: none;
+  }
+a{
+    text-decoration: none;
+  }
+header h1 {
+
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: 50px;
+  }
+
+  h2{
+    font-size: 50px;
+    margin-inline-start:40%;
+}
+@media(max-width:760px) {  
+  header {
+    background-image: none;
+    background: green;
+  }
+}
+.general-div
+{
+  display: relative;
+}
+.sub-seccion{
+  position :relative;
+  margin-bottom: 0%;
+  display: flex;
+}
+.flex{
+  display: flex;
+  max-width: 100%;
+  flex-direction: column
+  /* display: flex; */
+}
+@media (max-width:760px)  { section
+  {
+    background-image: none;
+    background: green;
+  }
+  
+}
+.cartas
+{
+  background-color: rgb(175, 48, 48);
+  display: flex;
+  border: 1px solid #ccc;
+  width: 29%;
+  height: 90vh;
+  margin-inline-start: 2%;
+  margin: 1%;
+  position:relative;
+  flex-direction: column ;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.presentacion{
+  border: 2px solid black;
+  display: flex;
+  /* position :absolute; */
+  /* max-width: 900px; */
+  flex-direction: column;
+
+}
+.presentacion img {
+  max-width: 560%;
+  /* max-height: 54.5%; */
+}
+
+.valores
+{
+    color:rgb(10, 116, 54);
+    font-size: 30px;
+    /* position :absolute; */
+    bottom:27%;
+    left : 1.5%;
+    display: flex;
+    flex-direction: column;
+   
+    display: flex;
+    flex-direction: column;
+}
+.nombre-prop{
+  flex-direction: column;
+    display: flex;
+    /* position: absolute; */
+    /* bottom: 40%; */
+    /* left: 15%; */
+    font-size: 30px;
+}
+.Descripcion-prop
+{
+  flex-direction: column;
+  max-width: 100%;
+  bottom: 32.5%;
+  left: 1.5%;
+  font-size: 22px;
+  display: flex;
+  
+}
+
+
+.icono-box{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  max-height: 100vh;
+}
+.iconos{
+  align-items: center;
+  justify-content: space-between;
+  /* font-size: 25px; */
+  gap: 1rem;
+  display: flex ;
+  flex-direction: row;
+  margin :10px;
+  /* max-width: 100%;
+  max-height: 50vh; */
+  /* width: 20%; */
+}
+/* .icono-box img {
+  
+  max-width: 100%;
+  max-height: 525x;
+  flex-direction: row;
+} */
+
+
+.boton-carta
+{
+  font-size: 20px;
+  font-family: fantasy;
+  background-color: orange;
+  position :absolute;
+  bottom:3%;
+  left : 5%;
+  width: 90%;
+  height: 50px;
+  text-align: center ;
+}
+.flayer{
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(./images/encuentra.jpg);
+  background-size: contain;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  display: flex;
+  position: relative;
+}
+.flayer-titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-block-start: -3em;
+    font-size: 35px;
+    margin-inline-start:1.5%;
+    width: 500px;
+    height: 40px;
+    position :absolute;
+}
+.flayer-descripcion{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  margin-block-start: 2em;
+  font-size: 20px;
+  margin-inline-start:1.5%;
+  width: 800px;
+  height: 60px;
+  position :absolute;
+}
+.flayer-boton {
+  background-color: orange;
+  width: 10%;
+  height: 10vh;
+  font-size: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-block-start: 6.5em;
+  position :absolute;
+  margin-inline-start:1.5%;
+}
+
+/* TEST */
+.cuadrado{
+  background-image: url(./images/icono_dormitorio.svg);
+  position:relative;
+  left:200px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.cuadrado-chico{
+  position:absolute;
+  left:25px;
+  top :0px;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+}
+
+
+.iconos img {
+  background-color: rgb(31, 187, 78);
+  width: 100px;
+  margin:10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 2px solid black;
+}
+
+.flex-conteiner{
+  display: flex;
+  
+  background-color: red;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.flex-conteiner div {
+  background-color: rgb(31, 187, 78);
+  width: 100px;
+  margin:10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 2px solid black;
+}
+*{
+  box-sizing: border-box;
+}

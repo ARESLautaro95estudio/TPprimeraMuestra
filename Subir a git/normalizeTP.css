@@ -1,0 +1,21 @@
+.miFelx{
+  display: flex;
+}
+body {
+  width: 100%;
+  height: 100vh;     
+  background: var(--secondary-color);
+}
+
+:root {
+    --primary-color: #3518b3;
+    --secondary-color: #a38939;
+  
+    --small-screen: 736px;
+    --ancho-maximo: 800px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
